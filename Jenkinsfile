@@ -13,6 +13,7 @@ pipeline {
         powershell 'git bisect run mvn clean test'
       }
     }
+
   }
   tools {
     maven 'DHT_MAVEN'
