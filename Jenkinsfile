@@ -1,7 +1,7 @@
 pipeline {
   agent any
   stages {
-    stage('checkout') {
+    stage('check out') {
       steps {
         git(url: 'https://github.com/j792lee/maven-samples-A6.git', branch: 'master')
       }
